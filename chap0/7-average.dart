@@ -13,7 +13,7 @@ main() {
 
   /*
     GOAL :
-    Cari nilai average dari kumpulanNilai
+    - Cari nilai average dari kumpulanNilai
   */
 
 }

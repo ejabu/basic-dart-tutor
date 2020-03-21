@@ -9,8 +9,9 @@ main() {
 
   /*
     GOAL :
+    
     - Cari nilai average dari kumpulanNilai
-    dan kumpulanNilaiKedua
+      dan kumpulanNilaiKedua
 
     - Solve problem ini dengan menggunaan Function !
   */

@@ -12,6 +12,6 @@ main() {
 
   /*
     GOAL :
-    Tambahkan semua nilai di dalam List
+    - Tambahkan semua nilai di dalam List
   */
 }
