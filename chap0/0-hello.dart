@@ -2,6 +2,7 @@
 // Welcome to Dart
 //
 //
-void main() {
+
+main() {
   print("hello");
 }

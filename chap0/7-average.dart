@@ -3,7 +3,7 @@
 //
 //
 
-void main() {
+main() {
   List<int> kumpulanNilai = [15, 25];
 
   int temp = 0;
@@ -15,6 +15,5 @@ void main() {
     GOAL :
     Cari nilai average dari kumpulanNilai
   */
-  print(temp);
 
 }

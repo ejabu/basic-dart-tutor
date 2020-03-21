@@ -3,7 +3,7 @@
 //
 //
 
-void main() {
+main() {
   List<int> kumpulanNilai = [15, 25];
 
   int temp = 0;

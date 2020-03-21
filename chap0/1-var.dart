@@ -1,9 +1,9 @@
 //
-// Variable Dynamic dan Pertambahan
-//
-//
+// Variable Dynamic
+// Pertambahan
+// dan Print
 
-void main() {
+main() {
   var a = 20;
   var b = 20;
 
