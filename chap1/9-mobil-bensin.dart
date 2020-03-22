@@ -1,15 +1,24 @@
 //
-// Mobil Construct Bensin
+// Mobil punya dua Class properties
+// Jumlah Ban dan Bensin
+///
+// properties bisa ditambahkan dengan this
 //
 //
+
 class Mobil {
   int jumlahBan;
   String bensin;
+
   Mobil(this.jumlahBan, this.bensin);
 
   void jalan() {
-    if (this.bensin == 'Pertamax'){
+
+    if (bensin == 'Pertamax'){
       print("Vrum... Vrum...");
+    }
+    else if (bensin == 'Premium') {
+      print("Brum... Brum...");
     }
     else {
       print("Dede dedet... Dede dedet...");
@@ -22,15 +31,12 @@ class Mobil {
   }
 }
 
-
 main() {
 
-  var ferrari = Mobil(4, 'Pertamax');
-  ferrari.isiAngin();
-  ferrari.jalan();
+  var alphard = Mobil(4, 'Pertamax');
+  alphard.jalan();
 
-  var corolla = Mobil(4, 'Premium');
-  corolla.isiAngin();
-  corolla.jalan();
+  var avanza = Mobil(4, 'Premium');
+  avanza.jalan();
 
 }

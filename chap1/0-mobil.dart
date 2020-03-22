@@ -16,7 +16,7 @@ class Mobil {
 }
 
 main() {
-  var mobil = Mobil();
-  mobil.unlock();
-  mobil.jalan();
+  var avanza = new Mobil();
+  avanza.unlock();
+  avanza.jalan();
 }

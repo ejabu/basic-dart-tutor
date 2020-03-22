@@ -1,8 +1,12 @@
 //
-// Satu Object Blueprint
+// Satu Class Blueprint
 // Kendaraan
-// Dua Object Beneran
-// Mobil, Motor
+//
+// Dua Class Beneran
+// Mobil dan Motor
+//
+// Dua Object
+// avanza dan vario
 //
 
 class Kendaraan {
@@ -24,11 +28,11 @@ class Motor extends Kendaraan {
 }
 
 main() {
-  var mobil = Mobil();
-  mobil.unlock();
-  mobil.jalan();
+  var avanza = Mobil();
+  avanza.unlock();
+  avanza.jalan();
 
-  var motor = Motor();
-  motor.unlock();
-  motor.jalan();
+  var vario = Motor();
+  vario.unlock();
+  vario.jalan();
 }

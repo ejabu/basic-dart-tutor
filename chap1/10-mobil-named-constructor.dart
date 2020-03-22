@@ -1,14 +1,18 @@
 //
-// Mobil Construct Bensin
+// Named Constructor
+// Sifat Bensin secara Optional
 //
+// properties juga dapat memiliki nilai default
 //
+
 class Mobil {
   int jumlahBan;
   String bensin;
+
   Mobil({this.jumlahBan, this.bensin});
 
   void jalan() {
-    if (this.bensin == 'Pertamax') {
+    if (bensin == 'Pertamax') {
       print("Vrum... Vrum...");
     } else {
       print("Dede dedet... Dede dedet...");
@@ -23,15 +27,12 @@ class Mobil {
 }
 
 main() {
-  var ferrari = Mobil(jumlahBan: 4, bensin: 'Pertamax',);
-  ferrari.isiAngin();
-  ferrari.jalan();
+  var alphard = Mobil(jumlahBan: 4, bensin: 'Pertamax',);
+  alphard.jalan();
 
-  var corolla = Mobil(jumlahBan: 4, bensin: 'Premium',);
-  corolla.isiAngin();
-  corolla.jalan();
+  var avanza = Mobil(jumlahBan: 4, bensin: 'Premium',);
+  avanza.jalan();
 
-  var lamborghini = Mobil(jumlahBan: 4);
-  lamborghini.isiAngin();
-  lamborghini.jalan();
+  var mobilio = Mobil(jumlahBan: 4);
+  mobilio.jalan();
 }

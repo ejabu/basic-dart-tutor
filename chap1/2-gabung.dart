@@ -2,13 +2,15 @@
 // Dua Object
 // Mobil, Motor
 //
+// Class Instantation tidak perlu new
+//
 
 class Mobil {
 
   void jalan() {
     print("Vrum... Vrum...");
   }
-  
+
   void unlock() {
     print("Tin Tin");
   }
@@ -19,7 +21,7 @@ class Motor {
   void jalan() {
     print("Ngeeng... Ngeeng...");
   }
-  
+
   void unlock() {
     print("Tin Tin");
   }
@@ -27,12 +29,12 @@ class Motor {
 
 main() {
 
-  var mobil = Mobil();
-  mobil.unlock();
-  mobil.jalan();
+  var avanza = new Mobil();
+  avanza.unlock();
+  avanza.jalan();
 
-  var motor = Motor();
-  motor.unlock();
-  motor.jalan();
+  var vario = Motor();
+  vario.unlock();
+  vario.jalan();
 
 }

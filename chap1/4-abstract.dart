@@ -1,11 +1,15 @@
 //
-// Satu Object Blueprint
+// Satu Abstract Class Blueprint
 // Kendaraan
-// Dua Object Beneran
-// Mobil, Motor
+//
+// Dua Class Beneran
+// Mobil dan Motor
+//
+// Dua Object
+// avanza dan vario
 //
 
-class Kendaraan { // <-- Add Abstract Here
+class Kendaraan { // <-- Tulis Abstract di awal
   void unlock() {
     print("Tin Tin");
   }
@@ -28,11 +32,11 @@ main() {
   var kendaraan = Kendaraan();
   kendaraan.unlock();
 
-  var mobil = Mobil();
-  mobil.unlock();
-  mobil.jalan();
+  var avanza = Mobil();
+  avanza.unlock();
+  avanza.jalan();
 
-  var motor = Motor();
-  motor.unlock();
-  motor.jalan();
+  var vario = Motor();
+  vario.unlock();
+  vario.jalan();
 }

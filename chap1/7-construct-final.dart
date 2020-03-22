@@ -1,7 +1,9 @@
 //
 // Constructor
+// dengan Properties Final
 //
 //
+
 
 abstract class Kendaraan {
   int jumlahBan;
@@ -20,8 +22,8 @@ abstract class Kendaraan {
 }
 
 class Mobil extends Kendaraan {
-  int jumlahBan;
-  Mobil(this.jumlahBan) : super(jumlahBan);
+
+  Mobil(jumlahBan) : super(jumlahBan);
 
   void jalan() {
     print("Vrum... Vrum...");
@@ -29,19 +31,20 @@ class Mobil extends Kendaraan {
 }
 
 class Motor extends Kendaraan {
-  final int jumlahBan;
-  Motor(this.jumlahBan) : super(jumlahBan);
+
+  Motor(jumlahBan) : super(jumlahBan);
+
   void jalan() {
     print("Ngeeng... Ngeeng...");
   }
 }
 
 main() {
-  var mobil = Mobil(4);
-  mobil.jumlahBan = 4;
-  mobil.isiAngin();
+  var avanza = Mobil(4);
+  avanza.jumlahBan = 4;
+  avanza.isiAngin();
 
-  var motor = Motor(2);
-  motor.jumlahBan = 20;
-  motor.isiAngin();
+  var vario = Motor(2);
+  vario.jumlahBan = 2;
+  vario.isiAngin();
 }

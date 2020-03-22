@@ -1,9 +1,14 @@
 //
-// Mobil Constructor
+// Constructor
+//
+// dalam file ini yang digunakan
+// adalah Positional Constructor
 //
 //
+
 class Mobil {
   int jumlahBan;
+
   Mobil(this.jumlahBan);
 
   void jalan() {
@@ -18,8 +23,19 @@ class Mobil {
 
 
 main() {
-  var mobil = Mobil(4);
-  mobil.jumlahBan = 4;
-  mobil.isiAngin();
+  var avanza = Mobil(4);
+  avanza.jumlahBan = 4;
+  avanza.isiAngin();
 
 }
+
+
+
+
+//
+// Original Construction
+//
+// Mobil(this.jumlahBan){
+//   this.jumlahBan = jumlahBan;
+// }
+//

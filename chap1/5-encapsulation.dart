@@ -1,4 +1,7 @@
 //
+// Class Properties
+//
+// atau dalam istilah lain Sifat-sifat Class
 // Masing-masing punya keunikan
 // Jumlah Ban
 //
@@ -31,11 +34,11 @@ class Motor extends Kendaraan {
 }
 
 main() {
-  var mobil = Mobil();
-  mobil.jumlahBan = 4;
-  mobil.isiAngin();
+  var avanza = Mobil();
+  avanza.jumlahBan = 4;
+  avanza.isiAngin();
 
-  var motor = Motor();
-  motor.jumlahBan = 2;
-  motor.isiAngin();
+  var vario = Motor();
+  vario.jumlahBan = 2;
+  vario.isiAngin();
 }
