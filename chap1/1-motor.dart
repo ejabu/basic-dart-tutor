@@ -2,6 +2,7 @@
 // Satu Class
 // Motor
 // Dua Object
+// mio dan vario
 //
 
 class Motor {
@@ -9,7 +10,7 @@ class Motor {
   void jalan() {
     print("Ngeeng... Ngeeng...");
   }
-  
+
   void unlock() {
     print("Tin Tin");
   }
@@ -28,16 +29,16 @@ main() {
   mio.jalan();
 
   var vario = new Motor();
-  vario.unlock();
+  // vario.unlock();
   vario.jalan();
 
   // Object Pertama
   //
-  // var mio = 
+  // var mio =
   //
 
   // Object Kedua
   //
-  // var vario = 
+  // var vario =
   //
 }
